@@ -1,0 +1,124 @@
+body{
+	font-family: 'open Sans', sans-serif;
+	background-color: black;
+}
+
+.container{
+	width:1000px;
+	height:650px;
+	background-image: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+	margin:30px auto;
+	background-size: 100% 100%;
+}
+
+#calculator{
+	width: 320px;
+	height: 520px;
+	margin:0 auto;
+	background: #ddd;
+	box-shadow: 3px 4px 2px 2px #000;
+	border-radius: 4px;
+	top: 20px;
+	position: relative;
+	padding: 4px;
+}
+
+p#history-value {
+    width: 96%;
+    height: 26px;
+    margin: 0;
+    text-align: right;
+    padding: 6px;
+    position: relative;
+    z-index: 900;
+    /* vertical-align: middle; */
+    /* display: table-cell; */
+}
+
+p#output-value {
+    margin: 8px 4px;
+    height: 54px;
+    width: 97%;
+    font-size: 30px;
+    text-align: right;
+    position: relative;
+    z-index: 900;
+}
+
+div#keyword {
+    width: 100%;
+    margin-top: 15px;
+}
+
+div#keyword button {
+    width: 19%;
+    /* margin-left: 16px; */
+    height: 55px;
+    margin-bottom: 16px;
+    margin: 9.3px;
+    float: left;
+    font-size: 17px;
+}
+
+button#empty {
+    background: #ddd;
+    border: none;
+}
+
+div#result {
+    margin-top: 10px;
+    /* margin-bottom: 6px; */
+}
+
+div#history {
+    position: relative;
+    background: #fff;
+    margin-bottom: 6px;
+}
+
+div#output {
+    position: relative;
+    background: #fff;
+}
+
+.operator:active, number:active {
+    color: #ddd;
+}
+
+div#history:before {
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    content: "History";
+    color: #ddd;
+}
+
+div#output:before {
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    content: "Result";
+    color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
